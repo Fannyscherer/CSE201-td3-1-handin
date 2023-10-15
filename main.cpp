@@ -20,7 +20,7 @@
  * GRADING to 0.
  */
 
-#define GRADING 1
+#define GRADING 0
 
 #include <iostream>
 #include "grading/grading.hpp"
@@ -31,13 +31,13 @@ using namespace std;
 int main(int argc, char* argv[])
 {
 #if GRADING != 1
-  // START OF THE CUSTOM CODE SECTION
-  // This code will be executed only if you set GRADING to a value different from 1
+    // START OF THE CUSTOM CODE SECTION
+    // This code will be executed only if you set GRADING to a value different from 1
 
-  {
-
-  }
-  // END OF THE CUSTOM CODE SECTION
+    {
+        std::cout << "First Git Commit"<< std::endl;
+    }
+    // END OF THE CUSTOM CODE SECTION
 #else
   // RUN THE AUTOMATIC GRADER
   {

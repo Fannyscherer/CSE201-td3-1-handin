@@ -20,7 +20,7 @@
  * GRADING to 0.
  */
 
-#define GRADING 0
+#define GRADING 40
 
 #include <iostream>
 #include "grading/grading.hpp"
@@ -33,7 +33,7 @@ int main(int argc, char* argv[])
 #if GRADING != 1
     // START OF THE CUSTOM CODE SECTION
     // This code will be executed only if you set GRADING to a value different from 1
-
+    //hehehe
     {
         std::cout << "A better message, new initial message"<< std::endl;
     }
